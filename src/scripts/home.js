@@ -10,9 +10,9 @@ function initHomePage() {
 }
 
 function handleBtnPlayertargetClick() {
-  window.location.href = "/question.html";
+  window.location.href = "question.html";
 }
 
 function handleBtnPlayersOtherClick() {
-  window.location.href = "/reponse.html";
+  window.location.href = "reponse.html";
 }
