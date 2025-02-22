@@ -1,0 +1,126 @@
+/* .header--container {
+  height: 80px;
+} */
+
+.header--wrapper {
+  width: 100%;
+  height: 80px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.logo--container {
+  width: 60px;
+  height: auto;
+}
+
+.logo--container img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.timer--wrapper p,
+.score--wrapper span {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.content--container {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.content--container img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content--text {
+  width: 80%;
+  font-size: 1.2rem;
+  color: var(--text-black);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.gif {
+  height: 100%;
+}
+
+.gif img {
+  height: 80%;
+  width: auto;
+}
+
+.actions--wrapper {
+  width: 100%;
+  min-height: 160px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn {
+  width: 92%;
+  max-width: 450px;
+  height: 40px;
+  border: none;
+  border-radius: 100px;
+  font-family: acme;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.white {
+  background: var(--bg-white);
+  color: var(--text-black);
+}
+
+.yellow {
+  background: var(--bg-yellow);
+  color: var(--text-white);
+}
+
+.blue {
+  background: var(--bg-blue);
+  color: var(--text-white);
+}
+
+.order--wrapper {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 2px inset var(--bg-purple);
+  border-radius: 100px;
+  background: var(--bg-white);
+
+  p {
+    width: 100%;
+    color: var(--text-black);
+  }
+}

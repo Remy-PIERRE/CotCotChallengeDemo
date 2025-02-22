@@ -1,0 +1,55 @@
+/* LOGO */
+.logo--container {
+  width: 240px;
+  height: auto;
+}
+
+.logo--container img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* TEXT */
+.text--container {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--text-white);
+}
+
+/* ACTIONS */
+.actions--container {
+  width: 100%;
+  max-width: 450px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  width: 92%;
+  height: 52px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 100px;
+  font-family: acme;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.white {
+  background: var(--bg-white);
+  color: var(--text-black);
+}
+
+.yellow {
+  background: var(--bg-yellow);
+  color: var(--text-white);
+}
+
+.blue {
+  background: var(--bg-blue);
+  color: var(--text-white);
+}
